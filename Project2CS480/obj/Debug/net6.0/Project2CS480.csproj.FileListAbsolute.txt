@@ -1,0 +1,15 @@
+C:\Projects\Project2CS480\Project2CS480\bin\Debug\net6.0\Project2CS480.exe
+C:\Projects\Project2CS480\Project2CS480\bin\Debug\net6.0\Project2CS480.deps.json
+C:\Projects\Project2CS480\Project2CS480\bin\Debug\net6.0\Project2CS480.runtimeconfig.json
+C:\Projects\Project2CS480\Project2CS480\bin\Debug\net6.0\Project2CS480.dll
+C:\Projects\Project2CS480\Project2CS480\bin\Debug\net6.0\Project2CS480.pdb
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.csproj.AssemblyReference.cache
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.AssemblyInfoInputs.cache
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.AssemblyInfo.cs
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.csproj.CoreCompileInputs.cache
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.dll
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\refint\Project2CS480.dll
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.pdb
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\Project2CS480.genruntimeconfig.cache
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\ref\Project2CS480.dll
