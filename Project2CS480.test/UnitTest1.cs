@@ -8,9 +8,11 @@ namespace Project2CS480.test
         }
 
         [Test]
-        public void Test1()
+        public void TestSetup()
         {
-            Assert.Pass();
+            Tea hash = new Tea();
+            string input = "encrypt";
+            Assert.AreEqual(hash.setup(), true);
         }
     }
 }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj": {}
+    "C:\\Projects\\Project2CS480\\Project2CS480.test\\Tea.Test.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj": {
+    "C:\\Projects\\Project2CS480\\Project2CS480.test\\Tea.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj",
-        "projectName": "Project2CS480.Test",
-        "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj",
+        "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Tea.Test.csproj",
+        "projectName": "Tea.Test",
+        "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Tea.Test.csproj",
         "packagesPath": "C:\\Users\\JustinReisz\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\obj\\",
         "projectStyle": "PackageReference",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj": {
-                "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj"
+              "C:\\Projects\\Project2CS480\\Project2CS480\\Tea.csproj": {
+                "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480\\Tea.csproj"
               }
             }
           }
@@ -84,12 +84,12 @@
         }
       }
     },
-    "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj": {
+    "C:\\Projects\\Project2CS480\\Project2CS480\\Tea.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj",
-        "projectName": "Project2CS480",
-        "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj",
+        "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480\\Tea.csproj",
+        "projectName": "Tea",
+        "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480\\Tea.csproj",
         "packagesPath": "C:\\Users\\JustinReisz\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Project2CS480\\Project2CS480\\obj\\",
         "projectStyle": "PackageReference",

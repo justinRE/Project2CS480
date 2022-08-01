@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Project2CS480.test/1.0.0": {
+      "Project2CS480.Test/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NUnit": "3.13.3",
@@ -16,7 +16,7 @@
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
-          "Project2CS480.test.dll": {}
+          "Project2CS480.Test.dll": {}
         }
       },
       "coverlet.collector/3.1.2": {},
@@ -661,7 +661,7 @@
     }
   },
   "libraries": {
-    "Project2CS480.test/1.0.0": {
+    "Project2CS480.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

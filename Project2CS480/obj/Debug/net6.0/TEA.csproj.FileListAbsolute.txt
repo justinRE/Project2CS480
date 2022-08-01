@@ -1,0 +1,5 @@
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\TEA.csproj.AssemblyReference.cache
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\TEA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\TEA.AssemblyInfoInputs.cache
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\TEA.AssemblyInfo.cs
+C:\Projects\Project2CS480\Project2CS480\obj\Debug\net6.0\TEA.csproj.CoreCompileInputs.cache

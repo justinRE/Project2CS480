@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Project2CS480.Test
-build_property.ProjectDir = C:\Projects\Project2CS480\Project2CS480.test\
+build_property.RootNamespace = TEA
+build_property.ProjectDir = C:\Projects\Project2CS480\Project2CS480\

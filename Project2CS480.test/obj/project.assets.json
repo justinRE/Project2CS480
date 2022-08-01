@@ -3901,9 +3901,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.test.csproj",
-      "projectName": "Project2CS480.test",
-      "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.test.csproj",
+      "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj",
+      "projectName": "Project2CS480.Test",
+      "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj",
       "packagesPath": "C:\\Users\\JustinReisz\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\obj\\",
       "projectStyle": "PackageReference",

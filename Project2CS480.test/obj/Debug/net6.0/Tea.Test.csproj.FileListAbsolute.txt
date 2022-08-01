@@ -1,0 +1,6 @@
+C:\Projects\Project2CS480\Project2CS480.test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Projects\Project2CS480\Project2CS480.test\obj\Debug\net6.0\Tea.Test.csproj.AssemblyReference.cache
+C:\Projects\Project2CS480\Project2CS480.test\obj\Debug\net6.0\Tea.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Project2CS480\Project2CS480.test\obj\Debug\net6.0\Tea.Test.AssemblyInfoInputs.cache
+C:\Projects\Project2CS480\Project2CS480.test\obj\Debug\net6.0\Tea.Test.AssemblyInfo.cs
+C:\Projects\Project2CS480\Project2CS480.test\obj\Debug\net6.0\Tea.Test.csproj.CoreCompileInputs.cache
