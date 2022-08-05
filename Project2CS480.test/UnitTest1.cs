@@ -8,12 +8,15 @@ namespace Project2CS480.test
         }
 
         [Test]
-        public void TestSetup()
-        {
+        public void TestEncryption() {
             Tea tea = new Tea();
-            tea.setup();
-            string input = "e";
-            Assert.AreEqual(true, tea.isEncrypting);
+            Assert.AreEqual(false, tea.getIsEncrypting());
+
+            tea.setIsEncrypting(false);
+            Assert.AreEqual(false, tea.getIsEncrypting());
+
+            tea.setIsEncrypting(true);
+            Assert.AreEqual(true, tea.getIsEncrypting());
         }
 
         [Test]
@@ -22,7 +25,7 @@ namespace Project2CS480.test
             Tea tea = new Tea();
             string key = "Hello world";
             tea.keyToBlocks(key);
-            UInt32[] keyblock = new UInt32[4];
+            UInt32[] keyblock = new UInt32[36];
           //  keyblock = ["H","E"]
            // Assert.AreEqual(hash.keyToUintBlocks);
         }
@@ -31,12 +34,21 @@ namespace Project2CS480.test
         public void ConvertStringToUInt()
         {
             Tea hash = new Tea();
-            UInt32 output;
-            string[] input = new string[4];
-
-            //Assert.AreEqual(ConvertStringToUInt(input), true);
+            Assert.AreEqual(1819043176, hash.convertStringToUInt("hello world"));
         }
-        
 
+        [Test]
+        public void convertUIntToString()
+        {
+            Tea hash = new Tea();
+            Assert.AreEqual("hell", hash.convertUIntToString(1819043176));
+        }
+
+        [Test]
+        public void encrypt()
+        {
+            Tea hash = new Tea();
+            
+        }
     }
 }

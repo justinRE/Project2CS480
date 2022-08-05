@@ -15,7 +15,7 @@ namespace Project2CS480
             
 
             Tea tea = new Tea();
-            tea.setup();
+            tea.getInput();
             // input is key and data to encrypt/decrypt
             string key = tea.keyInput();
             string dataInput = tea.Datainput();
@@ -32,28 +32,31 @@ namespace Project2CS480
             }
         }
 
+        public void setIsEncrypting(Boolean isEncrypting) {
+            this.isEncrypting = isEncrypting;
+        }
+        public bool getIsEncrypting() {
+            return this.isEncrypting;
+        }
 
-        internal void setup()
+        internal bool getInput()
         {
             string input = "";
-            bool holder = true;
 
-            while (holder == true)
+            while (true)
             {
-                Console.WriteLine("Would you like to Encrypt or Decrypt something? (E/D)");
+                Console.WriteLine("Would you like to Encrypt or Decrypt something? [E/D]");
                 input = Console.ReadLine();
-                input.ToLower();
-                if (input == "e")
+                if ("e" == input.ToLower())
                 {
-                    isEncrypting = true;
-                    break;
+                    return true;
                 }
-                else if (input == "d")
+                else if ("d" == input.ToLower())
                 {
-                    break;
+                    return false;
                 }
-                else
-                    Console.WriteLine("Enter encrypt or decrypt (E/D)");
+                else {
+                }
             }
         }
 

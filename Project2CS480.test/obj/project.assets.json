@@ -3896,34 +3896,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JustinReisz\\.nuget\\packages\\": {}
+    "/Users/justinreisz/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj",
+      "projectUniqueName": "/Users/justinreisz/Projects/Project2CS480/Project2CS480.test/Project2CS480.Test.csproj",
       "projectName": "Project2CS480.Test",
-      "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\Project2CS480.Test.csproj",
-      "packagesPath": "C:\\Users\\JustinReisz\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Project2CS480\\Project2CS480.test\\obj\\",
+      "projectPath": "/Users/justinreisz/Projects/Project2CS480/Project2CS480.test/Project2CS480.Test.csproj",
+      "packagesPath": "/Users/justinreisz/.nuget/packages/",
+      "outputPath": "/Users/justinreisz/Projects/Project2CS480/Project2CS480.test/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\JustinReisz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/justinreisz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj": {
-              "projectPath": "C:\\Projects\\Project2CS480\\Project2CS480\\Project2CS480.csproj"
+            "/Users/justinreisz/Projects/Project2CS480/Project2CS480/Project2CS480.csproj": {
+              "projectPath": "/Users/justinreisz/Projects/Project2CS480/Project2CS480/Project2CS480.csproj"
             }
           }
         }
@@ -3974,7 +3976,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }
