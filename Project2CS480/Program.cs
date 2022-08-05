@@ -17,9 +17,9 @@ namespace Project2CS480
             Tea tea = new Tea();
             tea.getInput();
             // input is key and data to encrypt/decrypt
-            string key = tea.keyInput();
             string dataInput = tea.Datainput();
-            string keyBlocks = tea.keyToBlocks(key);
+            string key = tea.keyInput();
+            string keyBlocks = tea.keyPadding(key);
             UInt32[] keyBlocksArray = tea.keyToUInt32Blocks(keyBlocks);
             if (tea.isEncrypting)
             {
@@ -79,10 +79,12 @@ namespace Project2CS480
             return inputData;
         }
 
-        internal string keyToBlocks(string key)
+        internal string keyPadding(string key)
         {
             if (key.Length == 0)
-                throw new ArgumentException("Key has to be 1-16 characters");
+                throw new ArgumentException("Key has to be greater than 1");
+            if (key.Length > 128)
+                throw new ArgumentException("Key can't be greater than 128.");
 
 
             int length = key.Length;
@@ -123,8 +125,7 @@ namespace Project2CS480
                 tempData[0] = dataBytes[i];
                 tempData[1] = dataBytes[i + 1];
                 encrypt(tempData, keyBlocks);
-                cipher += convertUIntToString(tempData[0]) +
-                                  convertUIntToString(tempData[1]);
+                cipher += convertUIntToString(tempData[0]) + convertUIntToString(tempData[1]);
             }
 
             return cipher;
