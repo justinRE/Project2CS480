@@ -8,18 +8,6 @@ namespace Project2CS480.test
         }
 
         [Test]
-        public void TestEncryption() {
-            Tea tea = new Tea();
-            Assert.AreEqual(false, tea.getIsEncrypting());
-
-            tea.setIsEncrypting(false);
-            Assert.AreEqual(false, tea.getIsEncrypting());
-
-            tea.setIsEncrypting(true);
-            Assert.AreEqual(true, tea.getIsEncrypting());
-        }
-
-        [Test]
         public void TestconvertStringToUInt()
         {
             Tea hash = new Tea();

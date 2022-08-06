@@ -8,20 +8,19 @@ namespace Project2CS480
 {
     class Tea
     {
-        public bool isEncrypting = false;
         private const Boolean DEBUG = false;
         static void Main(string[] args)
         {
             
 
             Tea tea = new Tea();
-            tea.getInput();
+            bool isEncrypting = tea.getInput();
             // input is key and data to encrypt/decrypt
             string dataInput = tea.Datainput();
             string key = tea.keyInput();
             string keyBlocks = tea.keyPadding(key);
             UInt32[] keyBlocksArray = tea.keyToUInt32Blocks(keyBlocks);
-            if (tea.isEncrypting)
+            if (isEncrypting)
             {
                 string final = tea.encryptText(dataInput, keyBlocksArray);
                 Console.WriteLine(final);
@@ -30,13 +29,6 @@ namespace Project2CS480
                 string final = tea.decryptText(dataInput, keyBlocksArray);
                 Console.WriteLine(final);
             }
-        }
-
-        public void setIsEncrypting(Boolean isEncrypting) {
-            this.isEncrypting = isEncrypting;
-        }
-        public bool getIsEncrypting() {
-            return this.isEncrypting;
         }
 
         internal bool getInput()
